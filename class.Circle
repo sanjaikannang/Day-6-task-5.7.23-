@@ -1,0 +1,14 @@
+ class Circle {
+  constructor(radius) {
+    this.radius = radius;
+  }
+  getRadius(){
+    return this.radius;
+    };
+  getArea(){
+    return Math.PI * this.radius * this.radius;
+    };
+}
+
+let cir = new Circle(3);
+console.log(cir);

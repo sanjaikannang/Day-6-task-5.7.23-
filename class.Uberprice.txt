@@ -1,0 +1,19 @@
+class Uberprice {
+  constructor(distance, costpermile) {
+    this.distance = distance;
+    this.costpermile = costpermile;
+  }
+
+  totalprice() {
+    return totalPrice;
+  }
+  
+}
+
+let distance = 50; //distance travelled
+let costpermile = 10; //cost per mile
+
+let totalpriceobj = new Uberprice(distance, costpermile);
+let totalprice = distance * costpermile;
+
+console.log(totalprice);

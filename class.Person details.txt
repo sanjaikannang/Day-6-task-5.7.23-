@@ -1,0 +1,24 @@
+class Person {
+  constructor(firstName, lastName, age, email) {
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.age = age;
+    this.email = email;
+  }
+
+  getFullName() {
+    return this.firstName + ' ' + this.lastName;
+  }
+
+  getAge() {
+    return this.age;
+  }
+
+  getEmail() {
+    return this.email;
+  }
+}
+let person = new Person('sanjai', 'kannan', 21, 'sanjaikannang.com');
+console.log(person.getFullName()); 
+console.log(person.getAge()); 
+console.log(person.getEmail());
